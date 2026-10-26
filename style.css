@@ -140,3 +140,6 @@ input,textarea,select,button{font-family:inherit}
 .exercise :is(h1,h2,h3,h4),.manualcard :is(h1,h2,h3,h4){font-family:"panel-sans",Arial,Helvetica,sans-serif}
 /* Headings embedded in the source passage are part of the question text. */
 .reader-content .reader-heading,.explain-body .reader-heading{font-family:var(--question-typeface)}
+
+/* Original mathematics option images already contain their A), B), … labels. */
+.reader-option:has(.math-option-image){display:block}
