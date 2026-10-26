@@ -133,3 +133,10 @@ html[data-large="true"] .option-copy,html[data-large="true"] .statement,html[dat
 h1,h2,h3,h4,.intro h1,.mode-card>strong,.exam-steps h3,.qcard h2,.reading h2,.reader-content .reader-heading,.explain-body .reader-heading{font-family:var(--typeface);font-weight:700}
 .brand,.mobilebrand,.welcome .brand-title{font-family:var(--brand-font);font-weight:400}
 input,textarea,select,button{font-family:inherit}
+
+/* Question text uses Adapter; card headings retain the existing Panel Sans style. */
+:root{--question-typeface:"adapter-pe-variable","adapter-pe",Arial,Helvetica,sans-serif}
+.exercise,.manualcard,.review-question,.pdf-text,.reader-content,.explain-body,.qtext{--typeface:var(--question-typeface);font-family:var(--question-typeface)}
+.exercise :is(h1,h2,h3,h4),.manualcard :is(h1,h2,h3,h4){font-family:"panel-sans",Arial,Helvetica,sans-serif}
+/* Headings embedded in the source passage are part of the question text. */
+.reader-content .reader-heading,.explain-body .reader-heading{font-family:var(--question-typeface)}
