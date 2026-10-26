@@ -143,3 +143,6 @@ input,textarea,select,button{font-family:inherit}
 
 /* Original mathematics option images already contain their A), B), … labels. */
 .reader-option:has(.math-option-image){display:block}
+
+.math-option-crop{display:block;max-width:100%;overflow:hidden}
+.math-option-crop .math-option-image{height:auto}
