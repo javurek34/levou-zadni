@@ -130,7 +130,7 @@ html[data-large="true"] .option-copy,html[data-large="true"] .statement,html[dat
 
 /* Atyp BL Variable is supplied by the Adobe kit (weights 280–700). */
 :root{--typeface:"atyp-bl-variable",Arial,Helvetica,sans-serif}
-h1,h2,h3,h4,.intro h1,.mode-card>strong,.exam-steps h3,.qcard h2,.reading h2,.reader-content .reader-heading,.explain-body .reader-heading{font-family:var(--typeface);font-weight:700}
+h1,h2,h3,h4,.intro h1,.mode-card>strong,.exam-steps h3,.qcard h2,.reading h2,.reader-content .reader-heading,.explain-body .reader-heading{font-family:var(--typeface);font-weight:600}
 .brand,.mobilebrand,.welcome .brand-title{font-family:var(--brand-font);font-weight:400}
 input,textarea,select,button{font-family:inherit}
 
